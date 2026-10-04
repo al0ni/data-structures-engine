@@ -50,7 +50,7 @@ public class Benchmark {
         long steps = 0;
         long moves = 0;
         long comparisons = 0;
-        for (int repeat = -2; repeat < 5; repeat++) {
+        for (int repeat = -20; repeat < 5; repeat++) {
             Metrics metrics;
             long start;
             long elapsed;
